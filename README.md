@@ -128,11 +128,11 @@ Creates:
 ### 3. Start the Server
 
 ```bash
-# Option A: Using uvicorn directly
-uvicorn app.main:app --reload
+# Option A: Using uvicorn directly on the correct module
+uvicorn main:app --reload
 
 # Option B: Using Python module
-python -m uvicorn app.main:app --reload
+python -m uvicorn main:app --reload
 
 # Option C: Using the main.py __main__ block
 python main.py

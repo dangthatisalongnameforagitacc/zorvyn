@@ -8,3 +8,8 @@ finance.db
 __pycache__/
 *.pyc
 finance.db
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+finance.db
